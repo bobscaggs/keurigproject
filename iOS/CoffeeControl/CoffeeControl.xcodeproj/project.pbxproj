@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4291497618D697E0004A3793 /* 41rfjU4zQXL.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4291497318D697E0004A3793 /* 41rfjU4zQXL.jpg */; };
+		4291497718D697E0004A3793 /* icon_heat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4291497418D697E0004A3793 /* icon_heat.jpg */; };
+		4291497818D697E0004A3793 /* icon_heat_o.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4291497518D697E0004A3793 /* icon_heat_o.jpg */; };
+		4298CAB118D14E7300983047 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4298CAB018D14E7300983047 /* Foundation.framework */; };
+		4298CAB318D14E7300983047 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4298CAB218D14E7300983047 /* CoreGraphics.framework */; };
+		4298CAB518D14E7300983047 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4298CAB418D14E7300983047 /* UIKit.framework */; };
+		4298CABB18D14E7300983047 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4298CAB918D14E7300983047 /* InfoPlist.strings */; };
+		4298CABD18D14E7300983047 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4298CABC18D14E7300983047 /* main.m */; };
+		4298CAC118D14E7300983047 /* cocodynAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4298CAC018D14E7300983047 /* cocodynAppDelegate.m */; };
+		4298CAC418D14E7300983047 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4298CAC218D14E7300983047 /* Main.storyboard */; };
+		4298CAC718D14E7300983047 /* cocodynViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4298CAC618D14E7300983047 /* cocodynViewController.m */; };
+		4298CAC918D14E7300983047 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4298CAC818D14E7300983047 /* Images.xcassets */; };
+		4298CAD018D14E7400983047 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4298CACF18D14E7400983047 /* XCTest.framework */; };
+		4298CAD118D14E7400983047 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4298CAB018D14E7300983047 /* Foundation.framework */; };
+		4298CAD218D14E7400983047 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4298CAB418D14E7300983047 /* UIKit.framework */; };
+		4298CADA18D14E7400983047 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4298CAD818D14E7400983047 /* InfoPlist.strings */; };
+		4298CADC18D14E7400983047 /* CoffeeControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4298CADB18D14E7400983047 /* CoffeeControlTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4298CAD318D14E7400983047 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4298CAA518D14E7300983047 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4298CAAC18D14E7300983047;
+			remoteInfo = CoffeeControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4291497318D697E0004A3793 /* 41rfjU4zQXL.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 41rfjU4zQXL.jpg; sourceTree = "<group>"; };
+		4291497418D697E0004A3793 /* icon_heat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon_heat.jpg; sourceTree = "<group>"; };
+		4291497518D697E0004A3793 /* icon_heat_o.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon_heat_o.jpg; sourceTree = "<group>"; };
+		4298CAAD18D14E7300983047 /* CoffeeControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4298CAB018D14E7300983047 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4298CAB218D14E7300983047 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4298CAB418D14E7300983047 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4298CAB818D14E7300983047 /* CoffeeControl-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoffeeControl-Info.plist"; sourceTree = "<group>"; };
+		4298CABA18D14E7300983047 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4298CABC18D14E7300983047 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4298CABE18D14E7300983047 /* CoffeeControl-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoffeeControl-Prefix.pch"; sourceTree = "<group>"; };
+		4298CABF18D14E7300983047 /* cocodynAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cocodynAppDelegate.h; sourceTree = "<group>"; };
+		4298CAC018D14E7300983047 /* cocodynAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cocodynAppDelegate.m; sourceTree = "<group>"; };
+		4298CAC318D14E7300983047 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4298CAC518D14E7300983047 /* cocodynViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cocodynViewController.h; sourceTree = "<group>"; };
+		4298CAC618D14E7300983047 /* cocodynViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cocodynViewController.m; sourceTree = "<group>"; };
+		4298CAC818D14E7300983047 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4298CACE18D14E7400983047 /* CoffeeControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4298CACF18D14E7400983047 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4298CAD718D14E7400983047 /* CoffeeControlTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoffeeControlTests-Info.plist"; sourceTree = "<group>"; };
+		4298CAD918D14E7400983047 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4298CADB18D14E7400983047 /* CoffeeControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoffeeControlTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4298CAAA18D14E7300983047 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4298CAB318D14E7300983047 /* CoreGraphics.framework in Frameworks */,
+				4298CAB518D14E7300983047 /* UIKit.framework in Frameworks */,
+				4298CAB118D14E7300983047 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4298CACB18D14E7400983047 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4298CAD018D14E7400983047 /* XCTest.framework in Frameworks */,
+				4298CAD218D14E7400983047 /* UIKit.framework in Frameworks */,
+				4298CAD118D14E7400983047 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4298CAA418D14E7300983047 = {
+			isa = PBXGroup;
+			children = (
+				4298CAB618D14E7300983047 /* CoffeeControl */,
+				4298CAD518D14E7400983047 /* CoffeeControlTests */,
+				4298CAAF18D14E7300983047 /* Frameworks */,
+				4298CAAE18D14E7300983047 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4298CAAE18D14E7300983047 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4298CAAD18D14E7300983047 /* CoffeeControl.app */,
+				4298CACE18D14E7400983047 /* CoffeeControlTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4298CAAF18D14E7300983047 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4298CAB018D14E7300983047 /* Foundation.framework */,
+				4298CAB218D14E7300983047 /* CoreGraphics.framework */,
+				4298CAB418D14E7300983047 /* UIKit.framework */,
+				4298CACF18D14E7400983047 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4298CAB618D14E7300983047 /* CoffeeControl */ = {
+			isa = PBXGroup;
+			children = (
+				4298CABF18D14E7300983047 /* cocodynAppDelegate.h */,
+				4298CAC018D14E7300983047 /* cocodynAppDelegate.m */,
+				4298CAC218D14E7300983047 /* Main.storyboard */,
+				4298CAC518D14E7300983047 /* cocodynViewController.h */,
+				4298CAC618D14E7300983047 /* cocodynViewController.m */,
+				4298CAC818D14E7300983047 /* Images.xcassets */,
+				4291497318D697E0004A3793 /* 41rfjU4zQXL.jpg */,
+				4291497418D697E0004A3793 /* icon_heat.jpg */,
+				4291497518D697E0004A3793 /* icon_heat_o.jpg */,
+				4298CAB718D14E7300983047 /* Supporting Files */,
+			);
+			path = CoffeeControl;
+			sourceTree = "<group>";
+		};
+		4298CAB718D14E7300983047 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4298CAB818D14E7300983047 /* CoffeeControl-Info.plist */,
+				4298CAB918D14E7300983047 /* InfoPlist.strings */,
+				4298CABC18D14E7300983047 /* main.m */,
+				4298CABE18D14E7300983047 /* CoffeeControl-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4298CAD518D14E7400983047 /* CoffeeControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				4298CADB18D14E7400983047 /* CoffeeControlTests.m */,
+				4298CAD618D14E7400983047 /* Supporting Files */,
+			);
+			path = CoffeeControlTests;
+			sourceTree = "<group>";
+		};
+		4298CAD618D14E7400983047 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4298CAD718D14E7400983047 /* CoffeeControlTests-Info.plist */,
+				4298CAD818D14E7400983047 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4298CAAC18D14E7300983047 /* CoffeeControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4298CADF18D14E7400983047 /* Build configuration list for PBXNativeTarget "CoffeeControl" */;
+			buildPhases = (
+				4298CAA918D14E7300983047 /* Sources */,
+				4298CAAA18D14E7300983047 /* Frameworks */,
+				4298CAAB18D14E7300983047 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoffeeControl;
+			productName = CoffeeControl;
+			productReference = 4298CAAD18D14E7300983047 /* CoffeeControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4298CACD18D14E7400983047 /* CoffeeControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4298CAE218D14E7400983047 /* Build configuration list for PBXNativeTarget "CoffeeControlTests" */;
+			buildPhases = (
+				4298CACA18D14E7400983047 /* Sources */,
+				4298CACB18D14E7400983047 /* Frameworks */,
+				4298CACC18D14E7400983047 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4298CAD418D14E7400983047 /* PBXTargetDependency */,
+			);
+			name = CoffeeControlTests;
+			productName = CoffeeControlTests;
+			productReference = 4298CACE18D14E7400983047 /* CoffeeControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4298CAA518D14E7300983047 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = cocodyn;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Cocodyn Software";
+				TargetAttributes = {
+					4298CACD18D14E7400983047 = {
+						TestTargetID = 4298CAAC18D14E7300983047;
+					};
+				};
+			};
+			buildConfigurationList = 4298CAA818D14E7300983047 /* Build configuration list for PBXProject "CoffeeControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4298CAA418D14E7300983047;
+			productRefGroup = 4298CAAE18D14E7300983047 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4298CAAC18D14E7300983047 /* CoffeeControl */,
+				4298CACD18D14E7400983047 /* CoffeeControlTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4298CAAB18D14E7300983047 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4291497818D697E0004A3793 /* icon_heat_o.jpg in Resources */,
+				4298CAC918D14E7300983047 /* Images.xcassets in Resources */,
+				4291497618D697E0004A3793 /* 41rfjU4zQXL.jpg in Resources */,
+				4291497718D697E0004A3793 /* icon_heat.jpg in Resources */,
+				4298CABB18D14E7300983047 /* InfoPlist.strings in Resources */,
+				4298CAC418D14E7300983047 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4298CACC18D14E7400983047 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4298CADA18D14E7400983047 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4298CAA918D14E7300983047 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4298CAC118D14E7300983047 /* cocodynAppDelegate.m in Sources */,
+				4298CABD18D14E7300983047 /* main.m in Sources */,
+				4298CAC718D14E7300983047 /* cocodynViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4298CACA18D14E7400983047 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4298CADC18D14E7400983047 /* CoffeeControlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4298CAD418D14E7400983047 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4298CAAC18D14E7300983047 /* CoffeeControl */;
+			targetProxy = 4298CAD318D14E7400983047 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4298CAB918D14E7300983047 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4298CABA18D14E7300983047 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4298CAC218D14E7300983047 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4298CAC318D14E7300983047 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4298CAD818D14E7400983047 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4298CAD918D14E7400983047 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4298CADD18D14E7400983047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4298CADE18D14E7400983047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4298CAE018D14E7400983047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoffeeControl/CoffeeControl-Prefix.pch";
+				INFOPLIST_FILE = "CoffeeControl/CoffeeControl-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4298CAE118D14E7400983047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoffeeControl/CoffeeControl-Prefix.pch";
+				INFOPLIST_FILE = "CoffeeControl/CoffeeControl-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4298CAE318D14E7400983047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CoffeeControl.app/CoffeeControl";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoffeeControl/CoffeeControl-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CoffeeControlTests/CoffeeControlTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4298CAE418D14E7400983047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CoffeeControl.app/CoffeeControl";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoffeeControl/CoffeeControl-Prefix.pch";
+				INFOPLIST_FILE = "CoffeeControlTests/CoffeeControlTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4298CAA818D14E7300983047 /* Build configuration list for PBXProject "CoffeeControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4298CADD18D14E7400983047 /* Debug */,
+				4298CADE18D14E7400983047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4298CADF18D14E7400983047 /* Build configuration list for PBXNativeTarget "CoffeeControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4298CAE018D14E7400983047 /* Debug */,
+				4298CAE118D14E7400983047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4298CAE218D14E7400983047 /* Build configuration list for PBXNativeTarget "CoffeeControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4298CAE318D14E7400983047 /* Debug */,
+				4298CAE418D14E7400983047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4298CAA518D14E7300983047 /* Project object */;
+}
